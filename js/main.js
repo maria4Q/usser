@@ -27,85 +27,21 @@ const table =
 document.getElementById('root').innerHTML = title + table;
 
 
-      /****TRABAJAR TABLA DE USUARIOS CON PROGRAMACIÓN *******/ 
+/*
+   Map: Permite iterar sobre un arreglo y modificar sus elementos 
+   utilizando una función, donde esta ejecutará cada uno de los elementos del arreglo
 
-/*let title = '<h1 style="color:red;">' + 'LISTADO DE USUARIOS' +  '</h1>';
+   Template Strings: Permite utilizar cualquier expresión válida de JavaScript 
+   (table, headers en este caso) dentro de una cadena y obtener como resultado la cadena completa.
 
+   Esta programción con iteraciones con el valor de cada elemento, intercalandolo con las etiquetas que se 
+   trabajan las tablas dentro de html, indicando que dentro de tr coloque nombres, id, email y la const headers indica los nombres 
+   de cada columna.
 
-let table = '<table border="1">' + 
-               '<tr>' +
-                  '<td>' + 'NAMES' + '</td>' +
-                  '<td>' +  'ID'   + '</td>' +
-                  '<td>' + 'EMAIL' + '</td>' +     
-               '</tr>' +
-
-               '<tr>' +
-                  '<td>' + user[0].name  + '</td>' +
-                  '<td>' + user[0].id    + '</td>' +
-                  '<td>' + user[0].email + '</td>' +     
-               '</tr>' +
-
-               '<tr>' +
-                  '<td>' + user[1].name  + '</td>' +
-                  '<td>' + user[1].id    + '</td>' +
-                  '<td>' + user[1].email + '</td>' +     
-               '</tr>' +
-
-               '<tr>' +
-                  '<td>' + user[2].name   + '</td>' +
-                  '<td>' + user[2].id     + '</td>' +
-                  '<td>' + user[2].email  + '</td>' +     
-               '</tr>' +
-
-               '<tr>' +
-                  '<td>' + user[3].name   + '</td>' +
-                  '<td>' + user[3].id     + '</td>' +
-                  '<td>' + user[3].email  + '</td>' +     
-               '</tr>' +
-
-               '<tr>' +
-                  '<td>' + user[4].name   + '</td>' +
-                  '<td>' + user[4].id     + '</td>' +
-                  '<td>' + user[4].email  + '</td>' +     
-               '</tr>' +
-
-               '<tr>' +
-                  '<td>' + user[5].name   + '</td>' +
-                  '<td>' + user[5].id     + '</td>' +
-                  '<td>' + user[5].email  + '</td>' +     
-               '</tr>' +
-
-               '<tr>' +
-                  '<td>' + user[6].name   + '</td>' +
-                  '<td>' + user[6].id     + '</td>' +
-                  '<td>' + user[6].email  + '</td>' +     
-               '</tr>' +
-               
-               '<tr>' +
-                  '<td>' + user[7].name   + '</td>' +
-                  '<td>' + user[7].id     + '</td>' +
-                  '<td>' + user[7].email  + '</td>' +     
-               '</tr>' +
-
-               '<tr>' +
-                  '<td>' + user[8].name   + '</td>' + 
-                  '<td>' + user[8].id     + '</td>' +
-                  '<td>' + user[8].email  + '</td>' +     
-               '</tr>' +
-               
-               '<tr>' +   
-                  '<td>' + user[9].name   + '</td>' +
-                  '<td>' + user[9].id     + '</td>' +
-                  '<td>' + user[9].email  + '</td>' +     
-               '</tr>' +
-
-            '</table>';
-
-
-   root.innerHTML = title + table;*/
-
- 
+*/ 
 
 
 
-   
+
+
+
